@@ -1,0 +1,13 @@
+Package: STIP
+Type: Package
+Title: State Transition Inference Prediction
+Version: 1.0
+Date: 2019-01-02
+Author: Zhicheng Ji, Zeyu Chen
+Maintainer: Zhicheng Ji <zji4@jhu.edu>
+Description: State Transition Inference Prediction
+License: GPL(>=2)
+VignetteBuilder: knitr
+Encoding: UTF-8
+Depends: reshape2, gplots, ggplot2, ggExtra, R(>= 2.10.0)
+RoxygenNote: 6.1.1
