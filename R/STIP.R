@@ -25,7 +25,7 @@ STIP <- function(fit,gl) {
       zpdirection <- fit[,1] < fit[,ncol(fit)]
       
       zp <- apply(fit,1,function(sf) {
-            which(sapply(1:(length(sf)-1),function(i) sf[i]*sf[i+1] < 0))
+            names(which(sapply(1:(length(sf)-1),function(i) sf[i]*sf[i+1] < 0)))
       })
       zpnum <- sapply(zp,length)
       inczp <- names(which(zpdirection[zpnum==1]))
