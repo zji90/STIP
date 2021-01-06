@@ -12,6 +12,7 @@
 #' @examples
 #' set.seed(12345)
 #' fit <- t(apply(matrix(rnorm(1000),nrow=10),1,sort))
+#' colnames(fit) <- 1:100
 #' row.names(fit) <- LETTERS[1:10]
 #' gl <- c("C", "G", "E", "I", "A")
 #' STIP(fit,gl)
